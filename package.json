@@ -2,7 +2,11 @@
   "name": "ts-tdd",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "lib/index.js",
+  "types": "lib/index.d.ts",
+  "files": [
+    "lib/"
+  ],
   "scripts": {
     "build": "tsc",
     "test": "mocha"
