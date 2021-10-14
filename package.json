@@ -1,7 +1,7 @@
 {
   "name": "ts-tdd",
   "version": "1.0.0",
-  "description": "",
+  "description": "Basic boilerplate for TDD in TypeScript",
   "main": "lib/index.js",
   "types": "lib/index.d.ts",
   "files": [
@@ -12,7 +12,7 @@
     "test": "mocha"
   },
   "keywords": [],
-  "author": "",
+  "author": "Jonathan Sharpe <mail@jonrshar.pe>",
   "license": "ISC",
   "devDependencies": {
     "@types/chai": "^4.2.22",
