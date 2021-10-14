@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "build": "tsc",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "mocha"
   },
   "keywords": [],
   "author": "",
@@ -25,5 +25,14 @@
   },
   "engines": {
     "node": ">=12.9"
+  },
+  "mocha": {
+    "extension": "ts",
+    "failZero": true,
+    "require": [
+      "ts-node/register",
+      "./setupTests.js"
+    ],
+    "spec": "src/**/*.spec.ts"
   }
 }
