@@ -35,7 +35,7 @@
     "failZero": true,
     "require": [
       "ts-node/register",
-      "./setupTests.js"
+      "./setupTests.ts"
     ],
     "spec": "src/**/*.spec.ts"
   }
