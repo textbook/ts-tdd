@@ -100,9 +100,7 @@
     "skipLibCheck": true                                 /* Skip type checking all .d.ts files. */
   },
   "exclude": [
-    "src/**/*.spec.ts"
-  ],
-  "include": [
-    "src/**/*.ts"
+    "./setupTests.ts",
+    "**/*.spec.ts"
   ]
 }
